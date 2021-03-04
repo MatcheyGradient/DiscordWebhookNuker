@@ -1,0 +1,2 @@
+# DiscordWebhookNuker
+nukes webhooks (beta)
