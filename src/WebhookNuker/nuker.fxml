@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseDragged="#dragged" onMousePressed="#pressed" prefHeight="243.0" prefWidth="467.0" style="-fx-background-color: #d6d6d6;" stylesheets="@main.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WebhookNuker.Controller">
+   <children>
+      <Text layoutX="137.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Discord Webhook Nuker">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Made by Matchey#1300">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="284.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Webhook Library by RANKTW">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <Button layoutX="8.0" layoutY="178.0" mnemonicParsing="false" onAction="#nukestart" prefHeight="31.0" prefWidth="252.0" text="Start Nuke">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="url" layoutX="8.0" layoutY="34.0" prefHeight="26.0" prefWidth="452.0" promptText="Webhook URL" />
+      <Text layoutX="192.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Webhook URL">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Text>
+      <TextField fx:id="msg" layoutX="8.0" layoutY="81.0" prefHeight="26.0" prefWidth="452.0" promptText="Message Content" />
+      <Text layoutX="183.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Message Content">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Text>
+      <TextField fx:id="pfp" layoutX="7.0" layoutY="130.0" prefHeight="26.0" prefWidth="226.0" promptText="Webhook Profile Picture Link" />
+      <Text layoutX="36.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Webhook Profile Picture Link" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Text>
+      <TextField fx:id="name" layoutX="234.0" layoutY="130.0" prefHeight="26.0" prefWidth="226.0" promptText="Webhook Name" />
+      <Text layoutX="301.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Webhook Name" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Text>
+      <FontAwesomeIcon layoutX="457.0" layoutY="15.0" onMousePressed="#close" text="X">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </FontAwesomeIcon>
+      <FontAwesomeIcon fx:id="esc" layoutX="445.0" layoutY="14.0" onMousePressed="#esc" text="_" />
+      <Text layoutX="273.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="application will crash when run">
+         <font>
+            <Font name="System Bold Italic" size="10.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
